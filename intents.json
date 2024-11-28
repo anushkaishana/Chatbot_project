@@ -1,0 +1,121 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hello", "hey", "good morning", "howdy", "sup", "yo"],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! Need help with something?",
+          "Hey {name}! Ready to learn?"
+        ]
+      },
+      {
+        "tag": "ask_name",
+        "patterns": ["my name is *", "I am *", "call me *", "I'm *", "you can call me *"],
+        "responses": [
+          "Got it! Nice to meet you, {name}.",
+          "Okay {name}, what can I do for you today?"
+        ]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": ["how are you", "how's it going", "how are you doing", "what's up"],
+        "responses": [
+          "I'm here to help you! How can I assist?",
+          "I'm doing great! What about you?",
+          "I'm good, thanks for asking! How about you, {name}?"
+        ]
+      },
+      {
+        "tag": "feeling_bad",
+        "patterns": ["not feeling good", "feel down", "sad", "tired", "stressed", "unmotivated"],
+        "responses": [
+          "I'm really sorry you're feeling this way, {name}. It's okay to have tough days. Let’s talk about it.",
+          "It's alright to feel down, {name}. I'm here for you. Want to chat more about how you're feeling?",
+          "Don't worry, {name}. I'm here to help. Let's focus on something positive together."
+        ]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["motivated", "motivation", "inspired", "unmotivated", "lacking drive"],
+        "responses": [
+          "You’ve got this, {name}! Keep pushing forward, one step at a time.",
+          "Progress, not perfection, {name}! Keep moving towards your goals.",
+          "You are capable of amazing things, {name}. Believe in yourself!"
+        ]
+      },
+      {
+        "tag": "study_help",
+        "patterns": ["study", "focus", "help me study", "study tips", "concentration", "need help with studying"],
+        "responses": [
+          "Try breaking your study time into focused blocks, like 25 minutes of study followed by a 5-minute break.",
+          "Create a study schedule to help organize your time, {name}. Stay focused on one task at a time.",
+          "Don't forget to take short breaks, {name}! Your mind will work better if you give it a rest."
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["bye", "goodbye", "exit", "see you", "later"],
+        "responses": [
+          "Goodbye, {name}! Feel free to reach out anytime!",
+          "See you soon, {name}! Keep learning!",
+          "Bye for now, {name}! Take care!"
+        ]
+      },
+      {
+        "tag": "casual_conversation",
+        "patterns": ["just chilling", "okay", "fine", "alright", "meh", "nothing much", "just relaxing"],
+        "responses": [
+          "I get it! Sometimes it’s just a chill day, {name}. Is there anything I can help you with?",
+          "Alright, {name}, take your time. I'm here when you're ready.",
+          "Got it, {name}. Let me know if you need anything."
+        ]
+      },
+      {
+        "tag": "clarification",
+        "patterns": ["yes", "okay", "sure", "please", "fine", "alright", "I don't know", "not sure"],
+        "responses": [
+          "What would you like help with today, {name}? You can ask me about motivation, study tips, or emotional support.",
+          "I'm not sure I understand, {name}. Can you clarify what you need help with?",
+          "Could you tell me more, {name}? I can assist with motivation, study tips, or emotional support."
+        ]
+      },
+      {
+        "tag": "ask_about_subject",
+        "patterns": ["tell me about study tips", "study strategies", "tips for studying", "how to study better"],
+        "responses": [
+          "A great strategy is to break your study time into focused blocks, {name}. Try using the Pomodoro technique!",
+          "For better focus, try to study in a quiet environment and limit distractions, {name}.",
+          "Setting clear goals for each study session can help you stay on track, {name}. Would you like more detailed advice?"
+        ]
+      },
+      {
+        "tag": "ask_for_help",
+        "patterns": ["help me with studying", "I need help", "can you assist me", "I'm stuck"],
+        "responses": [
+          "Of course, {name}! What do you need help with?",
+          "I’m here for you, {name}. Let’s tackle this together. What’s the challenge?",
+          "I got you, {name}! What topic are you struggling with?"
+        ]
+      },
+      {
+        "tag": "ask_about_emotion",
+        "patterns": ["feeling good", "happy", "in a good mood", "feeling great"],
+        "responses": [
+          "I’m glad to hear that, {name}! Anything in particular making you feel good today?",
+          "That’s awesome, {name}! Keep that positive energy going!",
+          "Great to hear, {name}! How can I assist you to keep that good vibe going?"
+        ]
+      },
+      {
+        "tag": "study_break",
+        "patterns": ["take a break", "I need a break", "break time", "need to relax"],
+        "responses": [
+          "Taking breaks is important, {name}. How about a 5-minute walk or a quick stretch?",
+          "It’s time to recharge, {name}. Let’s take a quick break and come back fresh!",
+          "A short break can do wonders, {name}. Make sure you’re hydrated too!"
+        ]
+      }
+    ]
+  }
+  
